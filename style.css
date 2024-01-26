@@ -1,0 +1,322 @@
+User
+body, h1, h2, p, ul {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body {
+
+    font-family: 'Arial', sans-serif;
+
+    color: #fff; /* Text color set to white */
+
+    background-color: #000; /* Background color set to black */
+
+    line-height: 1.6;
+
+}
+
+/* Header styles */
+
+header {
+
+    background-color: #000000;
+
+    color: #fff;
+
+    padding: 20px 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.logo-container img {
+
+    height: 80px;
+
+    width: auto;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+
+    display: flex;
+
+}
+
+nav a {
+
+    text-decoration: none;
+
+    color: #dbdbdb;
+
+    margin: 0 15px;
+
+    font-size: 1.2em;
+
+    transition: color 0.3s ease;
+
+}
+
+nav a:hover {
+
+    color: #00aaed;
+
+}
+
+/* Section styles */
+
+section {
+
+    padding: 80px 0;
+
+    text-align: center;
+
+    background-color: #000;
+
+}
+
+h2 {
+
+    font-size: 2.5em;
+
+    margin-bottom: 20px;
+
+    color: #fff;
+
+}
+
+p {
+
+    font-size: 1.2em;
+
+    margin-bottom: 30px;
+
+    color: #ccc;
+
+}
+
+/* Footer styles */
+
+footer {
+
+    text-align: center;
+
+    padding: 20px 0;
+
+    background-color: #000000;
+
+    color: #fff;
+
+}
+
+.cta-button {
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    font-size: 1em;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    transition: background-color 0.3s ease;
+
+}
+
+.cta-button.blue {
+
+    background-color: #007bff; /* Blue color */
+
+}
+
+.cta-button:hover {
+
+    background-color: #0056b3; /* Darker blue on hover */
+
+}
+
+.gallery-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+.gallery-item {
+
+    flex: 1 0 48%; /* Responsive gallery layout */
+
+    margin-bottom: 20px;
+
+    overflow: hidden;
+
+}
+
+.gallery-item img {
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 8px;
+
+    transition: transform 0.3s ease;
+
+}
+
+.gallery-item img:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+body {
+    text-align: center;
+    margin: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #3498DB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+@keyframes glow {
+    0% { box-shadow: 0 0 5px #e60b0b; }
+    50% { box-shadow: 0 0 20px #e5e5e5; }
+    100% { box-shadow: 0 0 5px #ffffff; }
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e00000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    animation: glow 2s infinite;
+}
+@keyframes glow {
+    0% { box-shadow: 0 0 5px #3498db; }
+    50% { box-shadow: 0 0 20px #3498db; }
+    100% { box-shadow: 0 0 5px #3498db; }
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #1eb217;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.7s ease-in-out;
+    animation: glow 3s infinite;
+}
+
+button:hover {
+    background-color: #2980b9;
+} 
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: row; /* Change back to a row layout on larger screens */
+        justify-content: center; /* Center the navigation items on larger screens */
+    }
+
+    .cta-button, button {
+        width: 100%; /* Make buttons take up full width on small screens */
+    }
+
+    .gallery-item {
+        flex: 1 0 100%; /* Take up full width on small screens */
+    }
+}
+
+
+
+/* ... Your existing CSS ... */
+
+/* Mobile responsiveness */
+section {
+    padding: 80px 10px; /* Adjusted padding for smaller screens */
+    text-align: center;
+    background-color: #000;
+}
+
+
+/* ... Your existing CSS ... */
+
+/* Section styles */
+
+
+/* ... Your existing CSS ... */
+/* ... Your existing CSS ... */
+
+/* Section styles */
+section {
+    padding: 80px 10px; /* Adjusted padding for smaller screens */
+    text-align: center;
+    background-color: #000;
+}
+
+
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace; /* Apply typewriter font */
+}
+
+/* ... Your existing CSS ... */
+/* ... Your existing CSS ... */
+
+/* Update the font-family for ul */
+
+
+/* ... Your existing CSS ... */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-family: 'Courier New', monospace; /* Use a typewriter font */
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height for better readability */
+    margin-bottom: 10px; /* Add some space between list items */
+}
+
+h2 {
+    font-family: 'Verdana', sans-serif;
+    
+}
