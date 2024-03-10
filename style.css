@@ -9,7 +9,7 @@ body, h1, h2, p, ul {
 
 body {
 
-    font-family: 'Arial', sans-serif;
+   
 
     color: #fff; /* Text color set to white */
 
@@ -81,7 +81,30 @@ section {
 
     text-align: center;
 
-    background-color: #000;
+body {
+        background: radial-gradient(circle at center center, transparent, rgb(0, 0, 0)),
+            linear-gradient(300deg, rgba(198, 198, 198, 0.05) 0%, rgba(198, 198, 198, 0.05) 50%, rgba(11, 11, 11, 0.05) 50%, rgba(11, 11, 11, 0.05) 100%),
+            linear-gradient(64deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 50%, rgba(132, 132, 132, 0.05) 50%, rgba(132, 132, 132, 0.05) 100%),
+            linear-gradient(17deg, rgba(57, 57, 57, 0.05) 0%, rgba(57, 57, 57, 0.05) 50%, rgba(128, 128, 128, 0.05) 50%, rgba(128, 128, 128, 0.05) 100%),
+            linear-gradient(332deg, rgba(97, 97, 97, 0.05) 0%, rgba(97, 97, 97, 0.05) 50%, rgba(85, 85, 85, 0.05) 50%, rgba(85, 85, 85, 0.05) 100%),
+            linear-gradient(148deg, rgba(237, 237, 237, 0.05) 0%, rgba(237, 237, 237, 0.05) 50%, rgba(211, 211, 211, 0.05) 50%, rgba(211, 211, 211, 0.05) 100%),
+            linear-gradient(142deg, rgba(168, 168, 168, 0.05) 0%, rgba(168, 168, 168, 0.05) 50%, rgba(32, 32, 32, 0.05) 50%, rgba(32, 32, 32, 0.05) 100%),
+            linear-gradient(15deg, rgba(225, 225, 225, 0.05) 0%, rgba(225, 225, 225, 0.05) 50%, rgba(228, 228, 228, 0.05) 50%, rgba(228, 228, 228, 0.05) 100%),
+            linear-gradient(5deg, rgba(104, 104, 104, 0.05) 0%, rgba(104, 104, 104, 0.05) 50%, rgba(43, 43, 43, 0.05) 50%, rgba(43, 43, 43, 0.05) 100%),
+            radial-gradient(circle at center center, hsl(290, 5%, 8%), hsl(290, 5%, 8%));
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        /* Adjust text color as needed */
+        font-family: 'Lucida Bright', 'Georgia', serif;
+        /* Set your desired font family */
+        text-align: center;
+        font-size: 24px;
+        /* Adjust font size as needed */
+    }
 
 }
 
@@ -113,10 +136,9 @@ footer {
 
     padding: 20px 0;
 
-    background-color: #000000;
-
+  
     color: #fff;
-
+background-color: #000000;
 }
 
 .cta-button {
@@ -230,8 +252,8 @@ button {
 
 button {
     padding: 15px 30px;
-    background-color: #1eb217;
-    color: white;
+    background-color: #06ba00;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
     border: none;
@@ -355,22 +377,93 @@ section.white-bg {
 /* Your existing CSS styles */
 
 /* Your existing CSS styles */
-
-body {
-    font-family: 'Lucida Bright', 'Georgia', serif;
-    /* Add other body styles as needed */
+/* Font styles for paragraphs */
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+    /* Adjust the color as needed */
 }
 
-h2,
-p,
-ul,
+/* Font styles for headings */
+h1 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 2.5em;
+    color: #ffffff;
+    /* Adjust the color as needed */
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #ffffff;
+    /* Adjust the color as needed */
+}
+
+h3 {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.8em;
+    color: #ffffff;
+    /* Adjust the color as needed */
+}
 li {
-    font-family: 'Lucida Bright', 'Georgia', serif;
-    /* Add other styles for headings, paragraphs, lists, etc. */
+    font-family: 'Times New Roman', serif;
+    font-size: 1.8em;
+    color: #ffffff;
+    /* Adjust the color as needed */
+}
+ul {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.8em;
+    color: #ffffff;
+    /* Adjust the color as needed */
+}
+/* Add styles for other headings (h4, h5, h6) if needed */
+
+
+/* ... Other existing styles ... */
+
+/* ... Other existing styles ... */
+
+/* Add your existing styles here */
+
+/* Add your existing styles here */
+
+#navbar {
+    display: none;
+    flex-direction: column;
+    /* Display the items vertically */
 }
 
-/* ... Other existing styles ... */
+#menuButton {
+    display: block;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+ 
+    flex-direction: column;
+    /* Adjust the font size as needed */
+}
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-/* ... Other existing styles ... */
+    #navbar {
+        width: 100%;
+        text-align: center;
+    }
 
+    #navbar ul {
+        flex-direction: column;
+    }
 
+    #menuButton {
+        margin-bottom: 10px;
+    }
+}

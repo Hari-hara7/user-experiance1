@@ -13,3 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.getElementById("menuButton");
+  const navbar = document.getElementById("navbar");
+
+  menuButton.addEventListener("click", function () {
+    navbar.style.display = navbar.style.display === "block" ? "none" : "block";
+  });
+});
