@@ -352,19 +352,21 @@ section.white-bg {
 }
 /* Your existing CSS styles */
 
+/* Your existing CSS styles */
+
 body {
-    font-family: 'Garamond', sans-serif;
+    font-family: 'Lucida Bright', 'Georgia', serif;
+    /* Add other body styles as needed */
 }
 
-h2 {
-    font-family: 'Garamond', sans-serif;
+h2,
+p,
+ul,
+li {
+    font-family: 'Lucida Bright', 'Georgia', serif;
+    /* Add other styles for headings, paragraphs, lists, etc. */
 }
 
-p {
-    font-family: 'Garamond', sans-serif;
-}
+/* ... Other existing styles ... */
 
-ul li {
-    font-family: 'Garamond', sans-serif;
-}
 
