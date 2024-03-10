@@ -320,3 +320,51 @@ h2 {
     font-family: 'Verdana', sans-serif;
     
 }
+/* Your existing CSS styles */
+body {
+    /* Your existing body styles */
+    transition: background-color 0.3s ease;
+    /* Add transition for smooth color change */
+}
+
+body.white-bg {
+    background-color: #fff;
+    /* Change to white background */
+}
+/* Your existing CSS styles */
+
+body.white-bg {
+    background-color: #fff;
+    /* Change to white background */
+}
+section.white-bg {
+    background-color: #fff;
+    /* Change to white background */
+}
+.hidden {
+    display: none;
+    /* Hide the text */
+}
+
+.white-text {
+    color: #fff;
+    /* Set the text color to white */
+}
+/* Your existing CSS styles */
+
+body {
+    font-family: 'Garamond', sans-serif;
+}
+
+h2 {
+    font-family: 'Garamond', sans-serif;
+}
+
+p {
+    font-family: 'Garamond', sans-serif;
+}
+
+ul li {
+    font-family: 'Garamond', sans-serif;
+}
+
